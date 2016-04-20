@@ -3,7 +3,7 @@ package Operators;
 public class Addition {
 
 	public static void main(String[] args) {
-		int a = 14;
+		int a = 14;//Testing
 		int b = 66;
 		int c = a+b;
 		
