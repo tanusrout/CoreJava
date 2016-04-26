@@ -10,7 +10,9 @@ public class WhileLoop {
 		int ages[] = {20,30,40};
 		int index = 0;
 		while(true){
-			System.out.println("Hello"  + index++);
+		System.out.println("Hello" + index++);
 		}
 	}
+	
+	
 }
