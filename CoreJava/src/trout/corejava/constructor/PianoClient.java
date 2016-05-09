@@ -37,5 +37,18 @@ public class PianoClient {
 	
 	System.out.println(piano.brand);
 	System.out.println(piano.color);
+	
+	Picture pict = new Picture();
+	System.out.println(pict.pictureName);
+	System.out.println(pict.typeOfPicture);
+	
+	Piano personalPiano = new Piano("Casio","Gold","MyCasio" , 8);
+	//System.out.println(personalPiano.brand + " " + personalPiano.color + " " + personalPiano.name + " " + personalPiano.size);
+	
+	personalPiano.printDetails();
 	}
+	
+	
+	
+	
 }
