@@ -6,9 +6,9 @@ public class Piano {
 	String brand;
 	int size;
 
-	public Piano(String brandValue){
+	public Piano(String brandx){
+		brand = brandx;	
 		System.out.println(brand + "got Created");
-		brand = brandValue;	
 	}
 	
 	public Piano(String brandValue,String colorValue,String nameVal,int sizeVal){
@@ -23,4 +23,7 @@ public class Piano {
 		
 	}
 
+		protected void finalize() throws Throwable{
+			System.out.println("I am been Destroyed" + brand);
+		}
 }

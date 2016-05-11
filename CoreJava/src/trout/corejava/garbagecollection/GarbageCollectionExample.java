@@ -1,12 +1,13 @@
 package trout.corejava.garbagecollection;
-import trout.corejava.constructor.*;
+import trout.corejava.constructor.Piano;
 
 public class GarbageCollectionExample {
 
 	public static void main(String[] args) {
-		
-		for(int i = 0; i < 10 ; i++){
-			Piano p = new Piano("Yamaha" +i);
+		 
+		int index = 0;
+		for(;;){
+			Piano p = new Piano("Yamaha"+ index++);
 		}
 
 	}
