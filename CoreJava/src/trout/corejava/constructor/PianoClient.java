@@ -1,5 +1,7 @@
 package trout.corejava.constructor;
 
+import trout.corejava.constants.ApplicationConstants;
+
 public class PianoClient {
 
 	public static void main(String[] args) {
@@ -45,6 +47,7 @@ public class PianoClient {
 	Piano personalPiano = new Piano("Casio","Gold","MyCasio" , 8);
 	//System.out.println(personalPiano.brand + " " + personalPiano.color + " " + personalPiano.name + " " + personalPiano.size);
 	
+	System.out.println("I stay in USA Capital:" + ApplicationConstants.USA_Capital);
 	personalPiano.printDetails();
 	}
 	
