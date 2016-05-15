@@ -1,5 +1,5 @@
 package trout.corejava.loop;
-import trout.corejava.arrays.Calculator;
+import jrout.corejava.arrays.Calculator;
 public class ClientProgram {
 
 	public static void main(String[] args) {
