@@ -9,9 +9,12 @@ public class InheritanceClient {
 		Clerk clerk = new Clerk("Raju","Response for Printing");
 		clerk.printDetails();
 		
-		Manager man = new Manager("Vijay","Managing the Project");
-		man.printDetails();
-
+		//Manager man = new Manager("Vijay","Managing the Project");
+		//man.printDetails();
+		
+		Person person = new Manager("Vijay", "Managing the project");
+		person.printDetails();
+		
 		SportsPerson sportsPerson = new SportsPerson("Jayram");
 	}
 }

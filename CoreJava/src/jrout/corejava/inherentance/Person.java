@@ -45,5 +45,7 @@ public abstract class Person {
 		System.out.println("Person Name =" + this.name);
 	}
 
-
+  public abstract void behaviour();
+  
+  public abstract void performance();
 }
